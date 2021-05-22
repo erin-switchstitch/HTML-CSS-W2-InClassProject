@@ -42,6 +42,7 @@ h1 {
   flex-wrap: wrap;
 
   width: 100%;
+  height: 80%;
   background-color: lightsalmon;
   justify-content: center;
   align-items: center;
@@ -52,23 +53,31 @@ h1 {
   border: 1px solid black;
   background-color: lightgreen;
   margin: 5%;
-  width: 100%;
+  max-width: 800px;
   display: grid;
-  grid-template-areas:
-    "box-image box-h2"
-    "box-ol    box-ol";
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 20% 80%;
 }
 
 .box-image {
   background-color: purple;
-  max-width: 30%;
+}
+
+.box-image-tag {
+  height: 100px;
 }
 
 .box-h2 {
   background-color: red;
+  width: 100%;
 }
 
 .box-ol {
   background-color: blue;
   width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
