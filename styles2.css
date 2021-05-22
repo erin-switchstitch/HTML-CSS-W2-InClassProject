@@ -27,30 +27,28 @@
 * write your names at the bottom
 * take a screenshot at laptop and Moto G4 device sizes in Devtools
 */
-​
-body {
+
+​body {
   font: 100% "Poppins", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  background-color:#A1B68B;
-​
+  background-color: #a1b68b;
 }
+
 ol {
-  grid-column: 1/3;;
+  grid-column: 1/3;
 }
-​
-header, footer {
-  text-align:center;
+​ header,
+footer {
+  text-align: center;
 }
-​
-.box {
-  border: 1px solid black; 
-  background-color: #cadbb8 ;
+​ .box {
+  border: 1px solid black;
+  background-color: #cadbb8;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-​
-.name {
+​ .name {
   grid-column: 2/3;
 }
