@@ -11,52 +11,52 @@ header {
   display: flex;
   flex-wrap: wrap;
   /*flex-basis: ;*/
-  background-color: lightsalmon;
+  background-color: #a1b68b;
   justify-content: center;
   align-content: space-between;
 }
 
 .box-1,
 .box-2 {
-  
   width: 300px;
+
   display: grid;
   border: 2px solid black;
-  background-color: lightgreen;
+  background-color: #edfedd;
   margin: 1%;
   margin-bottom: 10%;
 
   grid-template-columns: 35% 65%;
-  grid-template-rows: 35% 65%;
+  grid-template-rows: 30% 70%;
   grid-gap: 10px;
   overflow: hidden;
-  
 }
 
 .box-image-tag {
   float: right;
- 
+
   width: 80%;
-  
 }
 
 .box-image {
-  
-  background-color: purple;
-  
+  display: inline;
+  background-color: #edfedd;
+  padding-top: 20%;
 }
 
-
-
 .box-h2 {
-  background-color: red;
+  background-color: #edfedd;
   width: 100%;
   font-size: 1.3em;
-  
+  padding-top: 10%;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 .box-ol {
-  background-color: blue;
+  background-color: #edfedd;
   font-size: 1.2em;
   width: 95%;
 

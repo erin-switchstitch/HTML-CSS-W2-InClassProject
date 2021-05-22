@@ -30,13 +30,13 @@ Developers must test their work. Here are the tests for your project. Read your 
 ### HTML tests
 
 - [x ] our names are at the bottom
-- [ ] we have written semantic HTML
-- [ ] we have looked in the Accessibility tree
-- [ ] our Lighthouse Access score is 100
+- [x ] we have written semantic HTML
+- [x ] we have looked in the Accessibility tree
+- [x ] our Lighthouse Access score is 100
 
 ### Design tests
 
 - [x ] our layout works on desktop and mobile
 - [x ] our cards are side by side on large screens and stacked on smaller screens
-- [ ] we have taken a screenshot at laptop and Moto G4 device sizes using Devtools
-- [ ] when we size the text up by 200%, our layout does not break
+- [x ] we have taken a screenshot at laptop and Moto G4 device sizes using Devtools
+- [ x] when we size the text up by 200%, our layout does not break
